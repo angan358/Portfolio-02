@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Ubuntu&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,9 +7,10 @@
 
 
 .sidebar {
-    background-color: red;
+    background-color: rgb(179, 176, 176);
     width: 10vw;
     height: 100vh;
+    font-family: 'Courgette', cursive;
 }
 
 .sidebar nav {
@@ -21,7 +24,7 @@
 }
 
 .main {
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 90vw;
 }
 
@@ -30,10 +33,62 @@
 }
 
 .infocontainer {
-    background-color: green;
-    height: 78vh;
+    /* background-color: green; */
+    height: 60vh;
     width: 80vw;
     margin: 140px auto;
     display: flex;
+    justify-content: space-around;
 
+}
+
+.devpic img {
+    width: 300px;
+    height: 60vh;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Courgette', cursive;
+}
+
+.hello {
+    font-size: 70px;
+}
+
+.about {
+    font-size: 50px;
+}
+
+.name {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.moreabout {
+    font-size: 22px;
+}
+
+/* buttons part */
+
+.buttons {
+    margin-top: 34px;
+}
+
+.buttons button {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: dodgerblue;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
 }
