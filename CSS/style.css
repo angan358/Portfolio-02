@@ -8,9 +8,10 @@
 
 .sidebar {
     background-color: rgb(123, 120, 120);
-    width: 320px;
+    /* width: 320px; */
     height: 100vh;
     font-family: 'Courgette', cursive;
+    transition: transform 0.4s ease-in;
 }
 
 .sidebar nav {
@@ -184,18 +185,82 @@
 .skill {
     width: 150px;
     height: 5px;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .skillcontainer {
     padding: 12px;
     height: 100px;
+    display: flex;
+    flex-direction: column;
     /* margin: 8px 2px; */
 }
 
-.skillitem {
-    display: flex;
-    align-items: center;
-    
-    
+
+.skillitem1 {
+    margin-top: 5px;
+
+}
+
+.skillitem2 {
+    padding-top: 5px;
+}
+
+.skillitem3 {
+    padding-top: 10px;
+}
+
+.skillitem4 {
+    padding-top: 10px;
+}
+
+.skillitem5 {
+    padding-top: 5px;
+}
+
+.hundred {
+    width: 265px;
+    background-color: green;
+}
+
+.fifty {
+    width: 125px;
+    background-color: purple;
+}
+
+.t5 {
+    width: 75px;
+    background-color: yellow;
+}
+
+/* Hamburger and cross section */
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross {
+    margin-left: 110px;
+}
+
+.sidebargo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+
+}
+
+
+
+@media (max-width:1600px) {
+    /* * {
+        background-color: rgb(248, 147, 147);
+    } */
+
+    /* .sidebar {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
 }
